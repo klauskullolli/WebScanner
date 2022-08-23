@@ -1,0 +1,32 @@
+08-05-2022 23:48:05 | INFO | webScanner variable updated successfully
+08-05-2022 23:48:05 | INFO | Server is listening at port -> 3000 ......
+08-05-2022 23:49:37 | INFO | Receive data -> https://www.filma24.ch/ from address -> ('127.0.0.1', 64242)
+08-05-2022 23:49:37 | INFO | This url ->https://www.filma24.ch/ is valid
+08-05-2022 23:49:38 | INFO | using custom extraction: None
+08-05-2022 23:49:38 | INFO | not enough comments None
+08-05-2022 23:49:38 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+08-05-2022 23:49:39 | INFO | Use pytorch device: cpu
+08-05-2022 23:50:35 | INFO | Receive data -> http://www.veporno.net/?ref=porndude from address -> ('127.0.0.1', 62805)
+08-05-2022 23:50:35 | INFO | This url ->http://www.veporno.net/?ref=porndude is valid
+08-05-2022 23:50:36 | INFO | using custom extraction: None
+08-05-2022 23:50:36 | INFO | not enough comments None
+08-05-2022 23:50:36 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+08-05-2022 23:50:36 | INFO | Use pytorch device: cpu
+08-05-2022 23:50:36 | INFO | Receive data -> http://www.veporno.net/?ref=porndude from address -> ('127.0.0.1', 54566)
+08-05-2022 23:50:37 | INFO | This url ->http://www.veporno.net/?ref=porndude is valid
+08-05-2022 23:52:15 | INFO | Receive data -> https://pythonexamples.org/ from address -> ('127.0.0.1', 52472)
+08-05-2022 23:52:15 | INFO | This url ->https://pythonexamples.org/ is valid
+08-05-2022 23:52:16 | INFO | using custom extraction: None
+08-05-2022 23:52:16 | INFO | not enough comments None
+08-05-2022 23:52:16 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+08-05-2022 23:52:16 | INFO | Use pytorch device: cpu
+08-05-2022 23:52:54 | INFO | Receive data -> https://www.facebook.com/ from address -> ('127.0.0.1', 55287)
+08-05-2022 23:52:54 | INFO | This url ->https://www.facebook.com/ is valid
+08-05-2022 23:52:54 | INFO | using generic algorithm: None
+08-05-2022 23:52:54 | INFO | not enough comments None
+08-05-2022 23:52:54 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+08-05-2022 23:52:54 | INFO | Use pytorch device: cpu
+08-05-2022 23:53:36 | INFO | Receive data -> https://www.filma24.ch/ from address -> ('127.0.0.1', 57116)
+08-05-2022 23:53:36 | INFO | This url ->https://www.filma24.ch/ is valid
+08-05-2022 23:53:36 | INFO | Receive data -> https://www.filma24.ch/favicon.ico from address -> ('127.0.0.1', 57117)
+08-05-2022 23:53:36 | INFO | This url ->https://www.filma24.ch/favicon.ico is valid

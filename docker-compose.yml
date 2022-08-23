@@ -1,0 +1,7 @@
+services:
+  redis:
+    container_name: webscanner
+    image: redis
+    ports:
+    - 7002:6379
+version: '3.8'
