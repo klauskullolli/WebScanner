@@ -38,7 +38,8 @@ class Configuration:
     PACKAGE_LIST = ["mitmproxy", "tk", "beautifulsoup4", "nltk", "pynput",
                     "trafilatura", "logging", "psutil",
                     "requests", "redis", "spacy", "pyyaml","pybase64", 
-                    "pycopy-webbrowser", "cdifflib", "keybert", "matplotlib"]
+                    "pycopy-webbrowser", "cdifflib", "keybert", "matplotlib",
+                    "validators"]
     
     SPACY_FILE = "en_core_web_lg"
     

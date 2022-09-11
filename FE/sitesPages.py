@@ -14,7 +14,7 @@ import webbrowser
 import math 
 from webServices.UrlMod import urlModifyer
 from cache.webCacheStatus import  Status
-
+import validators 
 
 class SitesPage:
     def __init__(self, top: tk.Tk):
@@ -183,7 +183,7 @@ class SitesPage:
         self.addButt2.configure(text='''Add''')
         self.addButt2.configure(command=self.addBlockedSite)
 
-        self.offset = 2
+        self.offset = 10
         self.index = 0
         visitedCache = RedisCache("visited", host="localhost", port=Configuration.REDIS_PORT)
         self.redisData = visitedCache.getAll()
@@ -618,7 +618,7 @@ class SitesPage:
             messagebox.showerror("Error message", "Entry is empty")
         else:
             
-            if urlModifyer.isValidWebsite(site):
+            if validators.url(site):
                 urlmod = urlModifyer(site)
                 visitedCache = RedisCache("visited", host="localhost", port=Configuration.REDIS_PORT)
                 print(urlmod.getBaseUrl())
@@ -636,7 +636,7 @@ class SitesPage:
             messagebox.showerror("Error message", "Entry is empty")
         else:
             
-            if urlModifyer.isValidWebsite(site):
+            if validators.url(site):
                 urlmod = urlModifyer(site)
                 visitedCache = RedisCache("visited", host="localhost", port=Configuration.REDIS_PORT)
                 print(urlmod.getBaseUrl())

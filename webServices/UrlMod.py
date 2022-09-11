@@ -1,5 +1,5 @@
-
 import requests
+import validators
 
 class urlModifyer:
 
@@ -18,24 +18,12 @@ class urlModifyer:
 
 
     def isBaseUrlValid(self) -> bool:
-        try:
-            response =  requests.get(self.getBaseUrl()) 
-            return True
-        except:
-            return False
+        return validators.url(self.getBaseUrl)
 
 
     @staticmethod
     def isValidWebsite(url: str) -> bool:
-        try:
-            response =  requests.get(url)
-            
-            if response is not None:
-                return True
-            else:
-                False
-        except :
-            return False
+        return validators.url(url)
         
         
     @staticmethod
